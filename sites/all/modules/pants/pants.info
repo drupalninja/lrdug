@@ -1,0 +1,16 @@
+name = Pants
+description = Tracks pants status for users.
+core = 7.x
+files[] = pants.test
+dependencies[] = user
+dependencies[] = ctools
+dependencies[] = list
+dependencies[] = options
+configure = admin/config/people/pants
+
+; Information added by drupal.org packaging script on 2013-10-01
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "pants"
+datestamp = "1380622228"
+
